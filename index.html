@@ -176,72 +176,29 @@
                         ></button>
                       </div>
                       <div class="modal-body">
-                        <form id="contact-form">
-                          <p>
-                            <label>Name</label>
-                            <input
-                              type="text"
-                              name="name"
-                              placeholder="Name"
-                              id="name"
-                              required
-                            />
-                          </p>
-
-                          <p>
-                            <label>Company</label>
-                            <input
-                              type="text"
-                              name="company"
-                              placeholder="Company "
-                              id="company"
-                            />
-                          </p>
-
-                          <p>
-                            <label>Email</label>
-                            <input
-                              type="email"
-                              name="email"
-                              placeholder="Email"
-                              id="email"
-                              required
-                            />
-                          </p>
-
-                          <p>
-                            <label>Phone Number</label>
-                            <input
-                              type="text"
-                              name="phone"
-                              placeholder="Number"
-                              id="phone"
-                            />
-                          </p>
-
-                          <p class="full">
-                            <label>Message</label>
-                            <textarea
-                              name="message"
-                              placeholder="Message"
-                              rows="5"
-                              id="message"
-                            ></textarea>
-                          </p>
-
-                          <p class="full">
-                            <button type="submit" class="btn button-primary">
-                              Register
-                            </button>
-                          </p>
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn button-primary">Submit</button>
                         </form>
                         <!-- End #contact-form -->
                       </div>
                       <div class="modal-footer">
                         <button
                           type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
+                          class="btn btn-outline-primary"
+                          data-bs-dismiss="modal "
                         >
                           Close
                         </button>
