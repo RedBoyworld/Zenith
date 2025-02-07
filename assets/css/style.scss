@@ -192,6 +192,9 @@ p {
 
     img {
       max-width: 191px !important;
+      @media (max-width: 767.98px) {
+        max-width: 100px !important;
+      }
     }
     .button-primary {
       @media (max-width: 1199.98px) {

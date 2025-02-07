@@ -215,6 +215,11 @@ p {
 .mainHeader .navbar img {
   max-width: 191px !important;
 }
+@media (max-width: 767.98px) {
+  .mainHeader .navbar img {
+    max-width: 100px !important;
+  }
+}
 @media (max-width: 1199.98px) {
   .mainHeader .navbar .button-primary {
     display: none !important;
