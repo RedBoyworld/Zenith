@@ -149,6 +149,12 @@ h1 {
     line-height: 50px !important;
   }
 }
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 29px !important;
+    line-height: 50px !important;
+  }
+}
 
 h2 {
   font-size: 49px !important;
@@ -166,6 +172,18 @@ h2 {
     line-height: 50px !important;
   }
 }
+@media (max-width: 767.98px) {
+  h2 {
+    font-size: 29px !important;
+    line-height: 50px !important;
+  }
+}
+@media (max-width: 576.98px) {
+  h2 {
+    font-size: 27px !important;
+    line-height: 50px !important;
+  }
+}
 
 p {
   font-size: 18px !important;
@@ -175,6 +193,11 @@ p {
 @media (max-width: 1199.98px) {
   p {
     font-size: 16px !important;
+  }
+}
+@media (max-width: 425.98px) {
+  p {
+    font-size: 13px !important;
   }
 }
 
@@ -366,9 +389,7 @@ p {
 }
 @media (max-width: 576.98px) {
   .hero .customer-avatar {
-    right: 16rem;
-    bottom: 0rem;
-    max-width: 252px;
+    display: block;
   }
 }
 .hero .customer-ratings {
@@ -425,7 +446,7 @@ p {
 }
 @media (max-width: 576.98px) {
   .hero .customer-ratings {
-    right: 1rem;
+    display: none;
   }
 }
 
@@ -575,6 +596,11 @@ p {
     font-size: 39px !important;
   }
 }
+@media (max-width: 567.98px) {
+  .services h2 {
+    font-size: 29px !important;
+  }
+}
 @media (max-width: 767.98px) {
   .services img {
     padding: 20px;
@@ -671,6 +697,11 @@ p {
   font-size: 18px !important;
   font-weight: 600 !important;
   line-height: 21px !important;
+}
+@media (max-width: 450.98px) {
+  .why-us li {
+    font-size: 14px !important;
+  }
 }
 .why-us i {
   font-size: 30px;
