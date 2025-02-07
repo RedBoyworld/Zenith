@@ -197,6 +197,11 @@ p {
 }
 @media (max-width: 425.98px) {
   p {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 350.98px) {
+  p {
     font-size: 13px !important;
   }
 }
