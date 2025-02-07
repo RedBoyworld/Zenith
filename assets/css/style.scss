@@ -58,6 +58,7 @@ a {
 
 section {
   padding: 100px 0px;
+  overflow: hidden !important;
 
   @media (max-width: 576.98px) {
     padding: 10px 0;
@@ -670,6 +671,17 @@ p {
 
     @media (max-width: 1199.98px) {
       font-size: 34px !important;
+    }
+
+    @media (max-width: 567.98px) {
+      font-size: 24px !important;
+      line-height: 29px !important;
+    }
+  }
+  p{
+    @media (max-width: 567.98px) {
+      font-size: 17px !important;
+      line-height: 25px !important;
     }
   }
 }
