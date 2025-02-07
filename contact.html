@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- slick  -->
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"
+    />
+    <!-- icons  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- favicons  -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <title>Zenith</title>
+  </head>
+
+  <body id="body-scroll">
+    <header class="mainHeader">
+      <nav class="navbar fixed-top navbar-expand-xl navbar">
+        <div class="container-sm container-lg container-xl container-xxl">
+          <a class="navbar-brand" href="#"
+            ><img class="img-fluid" src="assets/images/zenith-large.png" alt="main_logo"
+          /></a>
+          <a
+            class="navbar-toggler"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="menu-btn-2" onclick="menuBtnFunction(this)">
+              <span></span>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 gap-4">
+              <!-- Products tab -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-expanded="false"> Home </a>
+              </li>
+              <!-- Solutions tab -->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  target="_blank"
+                  aria-expanded="false"
+                >
+                  About Us
+                </a>
+              </li>
+              <!-- Resources tab -->
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="service.html"
+                  target="_blank"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+              </li>
+              <!-- pricing tab -->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="price.html"
+                  target="_blank"
+                  aria-expanded="false"
+                >
+                  Pricing
+                </a>
+              </li>
+
+              
+              <!-- gallery tab  -->
+               
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" aria-expanded="false">
+                  Gallery
+                </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="blog.html"
+                  target="_blank"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+
+            <a href="contact.html" class ="btn button-primary">CONTACT US</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main tag here  -->
+    <main>
+      <!-- sections starts here  -->
+
+      <section class="hero-about container-fluid">
+        <div
+          class="hero-bg text-center"
+          style="background-image: url(assets/images/bg-new.jpg)"
+        >
+          <h1>Contact Detail</h1>
+          <p><a href="index.html">Home</a> / <span>Contact Detail</span></p>
+        </div>
+      </section>
+      <!-- contact starts here  -->
+
+      <section class="contact">
+        <div class="container-fluid">
+          <div class="contact-main container mt-5">
+            <h2 class="text-center mb-5">Contact us</h2>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+              <div class="wrapper">
+                <!-- COMPANY INFORMATION -->
+                <div class="company-info">
+                  <h2 class="mb-5">We’d Love To Hear From You.</h2>
+                  <p>
+                    We are here to answer any question you may have. As a
+                    partner of corporates, Zenith has more than 9,000 offices of
+                    all sizes and all potential of session.
+                  </p>
+                </div>
+                <!-- End .company-info -->
+
+                <!-- CONTACT FORM -->
+                <div class="contact-sec">
+                  <form id="contact-form">
+                    <p>
+                      <label>Name</label>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        id="name"
+                        required
+                      />
+                    </p>
+
+                    <p>
+                      <label>Company</label>
+                      <input
+                        type="text"
+                        name="company"
+                        placeholder="Company "
+                        id="company"
+                      />
+                    </p>
+
+                    <p>
+                      <label>Email</label>
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        id="email"
+                        required
+                      />
+                    </p>
+
+                    <p>
+                      <label>Phone Number</label>
+                      <input
+                        type="text"
+                        name="phone"
+                        placeholder="Number"
+                        id="phone"
+                      />
+                    </p>
+
+                    <p class="full">
+                      <label>Message</label>
+                      <textarea
+                        name="message"
+                        placeholder="Message"
+                        rows="5"
+                        id="message"
+                      ></textarea>
+                    </p>
+
+                    <p class="full">
+                      <button type="submit" class="btn button-primary">
+                        Register
+                      </button>
+                    </p>
+                  </form>
+                  <!-- End #contact-form -->
+                </div>
+                <!-- End .contact -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visit-office mt-5">
+          <div class="container-sm container-lg container-xl container-xxl">
+            <h2>Visit Our Office</h2>
+            <p>
+              Zenith has more than 9,000 offices of all sizes and <br />all
+              potential of session.
+            </p>
+
+            <div class="office-locations mt-5">
+              <div class="row">
+                <div class="office hover-ad col-md-4 p-2 ">
+                 <a href="index.html"><i class="fa-solid fa-user"></i></a>
+    
+                  <h3 class="mt-4">Address</h3>
+                  <p  >
+                    Mannath Sons Eyewear Private Limited, ADAMS 2, 101 Kavala,
+                    MC Road, Ettumanoor, Kottayam, Kerala, India, 686631
+                  </p>
+                </div>
+                <div class="office hover-co col-md-4 p-2">
+                  <a href="contact.html"><i class="fa-solid fa-phone"></i></a>
+                  <h3 class="mt-4">Contact</h3>
+                  <p>Open a chat or give us call at</p>
+                  <p>+91 91234 56789</p>
+                </div>
+                <div class="office hover-em col-md-4 p-2">
+                  <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+                  <h3 class="mt-4">Email</h3>
+                  <p>Contact Us through Email</p>
+                  <p><a href="contact.html">zenithcop@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container container-fluid">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.211711531581!2d76.28554381135928!3d9.916318090143942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087318890ff47b%3A0x20f4791e4dd9e378!2sZenith!5e0!3m2!1sen!2sin!4v1738316355892!5m2!1sen!2sin"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          >
+          </iframe>
+        </div>
+        <div class="contact-expert d-flex">
+          <div class="container">
+            <div class="card contact-expert-text">
+              <div class="row card-body align-items-center">
+                <div class="col-md-6 text-center">
+                  <h3 class="mb-3 mt-3">Subscribe Newslatter</h3>
+                  <p class="mb-4">
+                    Explore our news and blog content today and take the first
+                    step towards unlocking your full business potential.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <form>
+                    <div class="col mb-3 mt-3">
+                      <input
+                        type="email"
+                        placeholder="Email..."
+                        class="form-control"
+                        id="exampleInputEmail1"
+                      />
+
+                      <!-- button  -->
+                      <button
+                        class="btn button-primary mt-3"
+                        style="width: 100%"
+                        href="#price"
+                      >
+                        SUBSCRIBE
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- contact section  -->
+    <footer class="contact" id="contact">
+      <div
+        class="container-sm container-md container-lg container-xl container-xxl"
+      >
+        <div class="row">
+          <!-- col-1 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <img class="mb-3" src="assets/images/zenith-large.png" alt="logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing mauris volutpat
+              ante ut sagittis efficitur arcu diam faucibus eli quis rhoncus
+              enim augue ut orci donec.
+            </p>
+
+            <!-- social media icons  -->
+
+            <p class="mb-1">Follow Us On:</p>
+            <div class="sub-logo">
+              <a href="https://www.facebook.com/" target="_blank">
+                <img class="img-fluid p-2" src="assets/images/facebook.png" alt="fb" />
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <img class="img-fluid p-2" src="assets/images/youtube.png" alt="yt" />
+              </a>
+              <a href="https://x.com/" target="_blank">
+                <img
+                  class="img-fluid p-2"
+                  src="assets/images/twitter.png"
+                  alt="twitter"
+                />
+              </a>
+              <a href="https://in.linkedin.com/" target="_blank">
+                <img
+                  class="img-fluid p-2"
+                  src="assets/images/linkedin.png"
+                  alt="link"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- col-2  -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Company</h5>
+            <ul class="ps-0" style="list-style: none">
+              <a href="#">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Our Team</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+              </a>
+            </ul>
+          </div>
+          <!-- col-3  -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Services</h5>
+            <ul class="ps-0" style="list-style: none">
+              <a href="#">
+                <li>Strategic Planning Services</li>
+                <li>Market Research and Analysis</li>
+                <li>Financial Consulting</li>
+                <li>Operations Improvement</li>
+                <li>Organizational Development</li>
+                <li>Change Management</li>
+              </a>
+            </ul>
+          </div>
+          <!-- col-4 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Subscribe Newslatter</h5>
+            <p class="mb-4">
+              Explore our news and blog content today and take the first step
+              towards unlocking your full business potential.
+            </p>
+
+            <form>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  placeholder="Email..."
+                  class="form-control"
+                  id="exampleInputEmail1"
+                />
+              </div>
+            </form>
+
+            <!-- button  -->
+            <button class="btn button-primary mb-4" href="#price">
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+
+        <hr class="m-0" />
+
+        <div class="d-flex copyright justify-content-between">
+          <p class="mb-0">
+            Copyright © 2024 <span style="color: #0096c7">Zenith.</span> All
+            Rights Reserved.
+          </p>
+          <p class="mb-0">Privacy & Cookie Policy</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- imported scripts -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/scripts/Query.js"></script>
+
+    <!-- aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({ duration: 1000, once: false });
+    </script>
+  </body>
+</html>

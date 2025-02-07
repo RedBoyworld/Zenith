@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- slick  -->
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!-- //Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- icons  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- favicons  -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <title>Zenith</title>
+
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+  </head>
+
+  <body id="body-scroll">
+    <header class="mainHeader">
+      <nav class="navbar fixed-top navbar-expand-xl navbar">
+        <div class="container-sm container-lg container-xl container-xxl">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="img-fluid"
+              src="assets/images/zenith-large.png"
+              alt="main_logo"
+          /></a>
+          <a
+            class="navbar-toggler"
+            href="#"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="menu-btn-2" onclick="menuBtnFunction(this)">
+              <span></span>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 gap-4">
+              <!-- Products tab -->
+
+              <li class="nav-item mt-5 mt-lg-0">
+                <a class="nav-link active" href="#" aria-expanded="false">
+                  Home
+                </a>
+              </li>
+              <!-- Solutions tab -->
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" aria-expanded="false">
+                  About Us
+                </a>
+              </li>
+              <!-- Resources tab -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="service.html" aria-expanded="false">
+                  Services
+                </a>
+              </li>
+              <!-- pricing tab -->
+              <li class="nav-item">
+                <a class="nav-link" href="service.html" aria-expanded="false">
+                  Pricing
+                </a>
+              </li>
+
+              <!-- gallery tab  -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" aria-expanded="false">
+                  Gallery
+                </a>
+              </li>
+              <!-- blog tab  -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" aria-expanded="false">
+                  Blog
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="contact.html"
+              target="_blank"
+              class="btn button-primary"
+              >CONTACT US</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main tag here  -->
+    <main>
+      <!-- sections starts here  -->
+
+      <section class="hero mt-5">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <span class="strats">Strategize & Succeed</span>
+              <h1 class="mb-4 mt-3">
+                Driving Success Through Strategic Guidance.
+              </h1>
+              <p class="mb-4">
+                These services can be tailored to meet the specific needs and
+                challenges of each client, providing valuable expertise and
+                support to drive business success.
+              </p>
+              <!-- button tag -->
+              <div class="button gap-4 d-flex pb-3">
+                <a class="btn button-primary" href="#contact">CONTACT US</a>
+                <a
+                  class="btn btn-outline-primary"
+                  href="contact.html"
+                  target="_blank"
+                  >FREE CONSULT</a
+                >
+              </div>
+
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                <strong>Holy guacamole!</strong> You should check our Free
+                Consulting.
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <!-- social media icons  -->
+
+              <p class="mb-1">Follow Us On:</p>
+              <div class="sub-logo">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img
+                    class="img-fluid p-2"
+                    src="assets/images/facebook.png"
+                    alt="fb"
+                  />
+                </a>
+
+                <a href="https://www.youtube.com/" target="_blank">
+                  <img
+                    class="img-fluid p-2"
+                    src="assets/images/youtube.png"
+                    alt="yt"
+                  />
+                </a>
+                <a href="https://x.com/" target="_blank">
+                  <img
+                    class="img-fluid p-2"
+                    src="assets/images/twitter.png"
+                    alt="twitter"
+                  />
+                </a>
+                <a href="https://in.linkedin.com/" target="_blank">
+                  <img
+                    class="img-fluid p-2"
+                    src="assets/images/linkedin.png"
+                    alt="link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="text-center hero-image">
+                <img
+                  class="img-fluid"
+                  data-aos="fade-up"
+                  src="assets/images/hero_icon.png"
+                  alt="hero-image"
+                />
+                <div class="customer-avatar">
+                  <p class="customer-head">Satisfied Customer</p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/customer-icon.png"
+                    alt="customer-avatar"
+                  />
+                </div>
+                <div class="customer-ratings">
+                  <img
+                    class="mb-2"
+                    src="assets/images/rating-big.png"
+                    alt="star-img"
+                  />
+                  <span class="cus-num">4/5</span
+                  ><span class="cus-tex">Rating</span>
+                  <p class="mb-0 cus-tex">From over 1500 reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- company head logo  -->
+
+      <section class="company-head your-class">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="company-logo justify-content-center text-center">
+            <div class="card-slider Clogo">
+              <div class="log_1">
+                <img class="img-fluid" src="assets/images/Logo1 1.png" alt="logo-1" />
+              </div>
+
+              <div class="log_2">
+                <img class="img-fluid" src="assets/images/Logo2 1.png" alt="logo-2" />
+              </div>
+              <div class="log_3">
+                <img class="img-fluid" src="assets/images/Logo3 1.png" alt="logo-3" />
+              </div>
+              <div class="log_4">
+                <img class="img-fluid" src="assets/images/Logo4 1.png" alt="logo-4" />
+              </div>
+              <div class="log_5">
+                <img class="img-fluid" src="assets/images/Logo5 1.png" alt="logo-5" />
+              </div>
+              <div class="log_2">
+                <img class="img-fluid" src="assets/images/Logo2 1.png" alt="logo-2" />
+              </div>
+              <div class="log_3">
+                <img class="img-fluid" src="assets/images/Logo3 1.png" alt="logo-3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about us section  -->
+
+      <section class="about-us" id="about">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div
+              class="col-md-6 about-bg"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <img
+                class="img-fluid"
+                src="assets/images/about-us.png"
+                alt="about-icon"
+              />
+            </div>
+            <div class="col-md-6">
+              <!-- heading -->
+              <p class="about-us-line">About Us</p>
+              <h2>
+                Your Trusted <br />
+                Advisors <span class="about-us-line">in Business Success.</span>
+              </h2>
+              <p>
+                we understand the challenges and complexities that businesses
+                face in today's dynamic marketplace. That's why we offer a
+                comprehensive suite of consulting services.
+              </p>
+
+              <p>
+                Founded on the principles of innovation, integrity, and
+                excellence, we are a team of seasoned professionals.
+              </p>
+              <!-- button  -->
+              <a
+                class="btn button-primary mb-3"
+                href="about.html"
+                target="_blank"
+                >READ MORE</a
+              >
+
+              <hr />
+
+              <!-- stats line  -->
+
+              <div
+                class="about-stats d-flex justify-content-between text-center"
+                id="counter"
+              >
+                <div class="stats-head">
+                  <h3 class="count" data-number="500">500+</h3>
+                  <p>Statisfied Customers</p>
+                </div>
+
+                <div class="stats-head">
+                  <h3 class="count" data-number="10">10+</h3>
+                  <p>Years Experience</p>
+                </div>
+
+                <div class="stats-head">
+                  <h3 class="count" data-number="40">40+</h3>
+                  <p>Projects Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- planning and strategic section  -->
+
+      <section class="services" id="services">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row align-items-center">
+            <!-- head  -->
+            <div class="col-md-4">
+              <p class="planning-head">Strategic Planning</p>
+              <h2 class="mb-4">
+                Market <br />
+                Insights and Analysis.
+              </h2>
+              <p class="mb-4">
+                Help businesses improve their operations, achieve their goals,
+                and stay competitive in today's.
+              </p>
+
+              <!-- button outline tag -->
+              <a
+                class="btn btn-outline-primary"
+                target="_blank"
+                href="service.html"
+                >VIEW ALL</a
+              >
+            </div>
+
+            <!-- stratergy plan -->
+
+            <div class="col-md-4">
+              <img
+                class="img-fluid market-img"
+                src="assets/images/marketing-strategy.png"
+                alt="strategic-logo"
+              />
+              <h4 class="mt-3 mb-3">Strategic Planning Services</h4>
+              <p class="mb-4">
+                Business consultants can assist clients in developing long-term
+                strategic plans to achieve their goals.
+              </p>
+
+              <a href="service-detail.html" target="_blank"
+                >Learn More
+                <i
+                  class="fa-solid fa-arrow-right fa-rotate-by"
+                  style="--fa-rotate-angle: 320deg"
+                ></i
+              ></a>
+            </div>
+
+            <!-- market plan -->
+
+            <div class="col-md-4">
+              <img
+                class="img-fluid roadmap-img"
+                src="assets/images/roadmap.png"
+                alt="market-logo"
+              />
+              <h4 class="mt-3 mb-3">Market Research & Analysis</h4>
+              <p class="mb-4">
+                Conduct thorough market research to provide insights into market
+                trends, customer behaviors, and others.
+              </p>
+
+              <a href="service-detail.html" target="_blank"
+                >Learn More
+                <i
+                  class="fa-solid fa-arrow-right fa-rotate-by"
+                  style="--fa-rotate-angle: 320deg"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA section  -->
+      <section class="CTA">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div
+            class="text-center CTA-head"
+            style="background-image: url(assets/images/banner.png)"
+          >
+            <h2 class="mb-4">
+              Request a Customized <br />
+              Solution for Your Business!
+            </h2>
+            <p class="mb-4">
+              Every business is unique. Request a tailored solution crafted
+              <br />
+              specifically for your organization's challenges and goals.
+            </p>
+            <!-- button  -->
+            <a
+              class="btn button-primary"
+              href="case.html"
+              target="_blank"
+              >CONTACT US</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- case studies section -->
+
+      <section class="case-studies" id="case-studies">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="text-center">
+            <p class="case-head">Case Studies</p>
+            <h2 class="mb-4">Learn from Our Case Studies.</h2>
+            <p class="mb-5">
+              Each case study is a testament to our commitment to delivering
+              measurable <br />
+              results and driving tangible value for our clients.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6" data-aos="zoom-in">
+              <!-- images -->
+              <div class="text-center techsol">
+                <a href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/tech-1.png"
+                    alt="tech-banner"
+                /></a>
+                <div
+                  class="mx-5 d-flex align-items-center justify-content-between client-lines"
+                >
+                  <p class="client-head mt-3">Client: XYZ Tech Solutions</p>
+                  <a href="case.html" target="_blank"
+                    >Read More
+                    <i
+                      class="fa-solid fa-arrow-right fa-rotate-by"
+                      style="--fa-rotate-angle: 320deg"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="zoom-in">
+              <div class="text-center techsol">
+                <a href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/tech-2.png"
+                    alt="tech-banner"
+                /></a>
+                <div
+                  class="mx-5 d-flex align-items-center justify-content-between client-lines"
+                >
+                  <p class="client-head mt-3">Client: XYZ Tech Solutions</p>
+                  <a href="case-detail.html" target="_blank"
+                    >Read More
+                    <i
+                      class="fa-solid fa-arrow-right fa-rotate-by"
+                      style="--fa-rotate-angle: 320deg"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="zoom-in">
+              <div class="text-center techsol">
+                <a href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/tech-3.png"
+                    alt="tech-banner"
+                /></a>
+                <div
+                  class="mx-5 d-flex align-items-center justify-content-between client-lines"
+                >
+                  <p class="client-head mt-3">Client: XYZ Tech Solutions</p>
+                  <a href="case-detail.html" target="_blank"
+                    >Read More
+                    <i
+                      class="fa-solid fa-arrow-right fa-rotate-by"
+                      style="--fa-rotate-angle: 320deg"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="zoom-in">
+              <div class="text-center techsol">
+                <a href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/tech-4.png"
+                    alt="tech-banner"
+                /></a>
+                <div
+                  class="mx-5 d-flex align-items-center justify-content-between client-lines"
+                >
+                  <p class="client-head mt-3">Client: XYZ Tech Solutions</p>
+                  <a href="case-detail.html" target="_blank"
+                    >Read More
+                    <i
+                      class="fa-solid fa-arrow-right fa-rotate-by"
+                      style="--fa-rotate-angle: 320deg"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- button outline tag -->
+          <div class="mt-5 text-center">
+            <a
+              class="btn-outline-primary"
+              target="_blank"
+              href="case.html"
+              >VIEW ALL</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- why us section  -->
+
+      <section class="why-us">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <p class="why-us-head">Why Choose Us</p>
+              <h2 class="mb-4">
+                We Can Help You To Grow
+                <span class="your-bus">Your Business.</span>
+              </h2>
+              <p class="mb-4">
+                When you choose Zenith, you're not just hiring a consulting firm
+                – you're partnering with a team of dedicated professionals who
+                are invested in your success.
+              </p>
+              <div class="listed d-flex">
+                <div class="lists">
+                  <ul class="ps-0" style="list-style: none">
+                    <!-- list  -->
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i>
+                      </span>
+                      Strategic Approach
+                    </li>
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i> </span
+                      >Client-Centric Focus
+                    </li>
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i> </span
+                      >Collaborative Partnership
+                    </li>
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i> </span
+                      >Ethical Standards
+                    </li>
+                  </ul>
+                </div>
+                <div class="lists">
+                  <ul class="ps-0" style="list-style: none">
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i> </span
+                      >Industry Expertise
+                    </li>
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i>
+                      </span>
+                      Collaborative Partnership
+                    </li>
+                    <li class="d-inline-flex align-items-center mb-3">
+                      <span class="pe-2">
+                        <i
+                          class="fa-solid fa-circle-check"
+                          style="color: #0096c7"
+                        ></i> </span
+                      >Results-Driven Approach
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- button tag -->
+              <a
+                class="btn button-primary"
+                href="service.html"
+                target="_blank"
+                >READ MORE</a
+              >
+            </div>
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+            >
+              <div class="img-fluid why-us-bg text-end">
+                <img src="assets/images/whyus.png" alt="why-us-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing sectionn  -->
+
+      <section class="price" id="price">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="text-center">
+            <p class="plan-head">Pricing Plans</p>
+            <h2 class="mb-4">Pricing That Suits Your Needs.</h2>
+            <p class="price-p mb-5 mx-auto">
+              Whether you're a startup on a tight budget or a multinational
+              corporation looking for comprehensive support.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 mt-3 mt-lg-0 px-4" data-aos="zoom-in-right">
+              <!-- card-1  -->
+              <div class="card mt-5 mx-5 mx-sm-0 mx-lg-0 mt-md-0">
+                <h3>Basic Plan.</h3>
+                <p class="mb-5">
+                  Ideal for startups and small businesses looking for affordable
+                  consulting services.
+                </p>
+                <p class="text-center mb-4">
+                  <sup>$</sup><span class="plan-price">49</span>/Session
+                </p>
+                <a
+                  class="btn-outline-primary text-center"
+                  href="price.html"
+                  target="_blank"
+                  >LEARN MORE</a
+                >
+
+                <ul class="mt-4 mb-0" style="list-style-type: none">
+                  <!-- texts in column -->
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Initial consultation session to assess your needs and goals.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Customized recommendations and actionable insights.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Limited support via email or phone.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- card-2  -->
+            <div class="col-lg-4 mt-3 mt-lg-0 px-4" data-aos="zoom-in-up">
+              <div class="card mx-5 mx-sm-0 mx-lg-0 mt-5 mb-5 mt-md-0 mb-md-0">
+                <h3>Standard Plan.</h3>
+                <p class="mb-5">
+                  Perfect for growing businesses in need of comprehensive
+                  consulting support.
+                </p>
+                <p class="text-center mb-4">
+                  <sup>$</sup><span class="plan-price">69</span>/Session
+                </p>
+                <a
+                  class="btn-outline-primary text-center"
+                  href="price.html"
+                  target="_blank"
+                  >LEARN MORE</a
+                >
+
+                <ul class="mt-4 mb-0" style="list-style-type: none">
+                  <!-- texts in column -->
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Initial consultation session to assess your needs and goals.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Customized recommendations and actionable insights.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Limited support via email or phone.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- card-3  -->
+            <div class="col-lg-4 mt-lg-0 mt-3 px-4" data-aos="zoom-in-left">
+              <div class="card mx-5 mx-sm-0 mx-lg-0">
+                <h3>Premium Plan.</h3>
+                <p class="mb-5">
+                  For established companies seeking strategic guidance and
+                  transformational solutions.
+                </p>
+                <p class="text-center mb-4">
+                  <sup>$</sup><span class="plan-price">99</span>/Session
+                </p>
+                <a
+                  class="btn-outline-primary text-center"
+                  href="price.html"
+                  target="_blank"
+                  >LEARN MORE</a
+                >
+                <ul class="mt-4 mb-0" style="list-style-type: none">
+                  <!-- texts in column -->
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Initial consultation session to assess your needs and goals.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Customized recommendations and actionable insights.
+                  </li>
+
+                  <li class="ps-2 mb-3">
+                    <span class="card-new">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/check-circle.png"
+                        alt="checkbox"
+                      />
+                    </span>
+                    Limited support via email or phone.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <p>Reach us for more details! <a href="#contact">Contact Us</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- stats -->
+
+      <section class="stats">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="num-stat d-flex justify-content-between text-center">
+            <div class="500 item">
+              <h2 class="count" data-number="500">500</h2>
+              <p>Statisfied Customers</p>
+            </div>
+            <div class="10 item">
+              <h2 class="count" data-number="10">10+</h2>
+              <p>Years Experience</p>
+            </div>
+            <div class="20 item">
+              <h2 class="count" data-number="20">20+</h2>
+              <p>Branch Office</p>
+            </div>
+            <div class="40 item">
+              <h2 class="count" data-number="40">40+</h2>
+              <p>Projects Completed</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- team section  -->
+
+      <section class="team">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <p class="team-head">Our Team</p>
+              <h2 class="mb-4">
+                Meet Our <span class="team-color">Smart People.</span>
+              </h2>
+              <p class="mb-4 team-p">
+                With a diverse range of expertise and commitment to excellence,
+                our team is dedicated to delivering innovative marketing
+                solutions that drive result Get to know the individuals behind
+                our success
+              </p>
+              <a
+                class="btn-outline-primary text-center"
+                href="team.html"
+                target="_blank"
+                >VIEW ALL</a
+              >
+            </div>
+            <!-- team-1  -->
+            <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+              <img
+                class="img-fluid mb-3"
+                width="100%"
+                src="assets/images/team-1.png"
+                alt="team-logo"
+              />
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="tag">
+                  <p class="team-tag">Jonathan Andrew</p>
+                  <p class="team-pos">CEO Zenith</p>
+                </div>
+                <!-- social media icons  -->
+
+                <div class="sub-logo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/facebook.png"
+                      alt="fb"
+                    />
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/youtube.png"
+                      alt="yt"
+                    />
+                  </a>
+                  <a href="https://x.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/twitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                  <a href="https://in.linkedin.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/linkedin.png"
+                      alt="link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- team-2  -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <img
+                class="img-fluid mb-3"
+                width="100%"
+                src="assets/images/team-2.png"
+                alt="team-logo"
+              />
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="tag">
+                  <p class="team-tag">Sarah Keihl</p>
+                  <p class="team-pos">Creative Director</p>
+                </div>
+                <!-- social media icons  -->
+
+                <div class="sub-logo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/facebook.png"
+                      alt="fb"
+                    />
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/youtube.png"
+                      alt="yt"
+                    />
+                  </a>
+                  <a href="https://x.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/twitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                  <a href="https://in.linkedin.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/linkedin.png"
+                      alt="link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- team-3  -->
+              <img
+                class="img-fluid mb-3"
+                width="100%"
+                src="assets/images/team-3.png"
+                alt="team-logo"
+              />
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="tag">
+                  <p class="team-tag">Michael Smith</p>
+                  <p class="team-pos">SMO Zenith</p>
+                </div>
+                <!-- social media icons  -->
+
+                <div class="sub-logo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/facebook.png"
+                      alt="fb"
+                    />
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/youtube.png"
+                      alt="yt"
+                    />
+                  </a>
+                  <a href="https://x.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/twitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                  <a href="https://in.linkedin.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/linkedin.png"
+                      alt="link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- team-4  -->
+              <img
+                class="img-fluid mb-3"
+                width="100%"
+                src="assets/images/team-4.png"
+                alt="team-logo"
+              />
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="tag">
+                  <p class="team-tag">Martin Lee</p>
+                  <p class="team-pos">Marketing Analytics</p>
+                </div>
+                <!-- social media icons  -->
+
+                <div class="sub-logo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/facebook.png"
+                      alt="fb"
+                    />
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/youtube.png"
+                      alt="yt"
+                    />
+                  </a>
+                  <a href="https://x.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/twitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                  <a href="https://in.linkedin.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/linkedin.png"
+                      alt="link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- team-5  -->
+              <img
+                class="img-fluid mb-3"
+                width="100%"
+                src="assets/images/team-5.png"
+                alt="team-logo"
+              />
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="tag">
+                  <p class="team-tag">Jessica Wong</p>
+                  <p class="team-pos">Content Marketing</p>
+                </div>
+                <!-- social media icons  -->
+
+                <div class="sub-logo">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/facebook.png"
+                      alt="fb"
+                    />
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/youtube.png"
+                      alt="yt"
+                    />
+                  </a>
+                  <a href="https://x.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/twitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                  <a href="https://in.linkedin.com/" target="_blank">
+                    <img
+                      class="img-fluid p-2"
+                      src="assets/images/linkedin.png"
+                      alt="link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery section  -->
+      <section class="gallery text-center">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <p class="galleryhead">Gallery</p>
+          <h2 class="mb-5">
+            A Visual Journey Through
+            <span class="gallerysub">Our Memories</span>
+          </h2>
+
+          <div class="row text-start" id="gallery">
+            <div class="col-12 col-md-12 col-lg-4 mt-5">
+              <a href="assets/images/art-1.png" data-caption="Our Memories"
+                ><img src="assets/images/art-1.png" alt="gall-img"
+              /></a>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 mt-5">
+              <a href="assets/images/art-2.png" data-caption="Our Memories"
+                ><img src="assets/images/art-2.png" alt="gall-img"
+              /></a>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 mt-5">
+              <a href="assets/images/art-3.png" data-caption="Our Memories"
+                ><img src="assets/images/art-3.png" alt="gall-img"
+              /></a>
+            </div>
+          </div>
+
+          <!-- button  -->
+          <a
+            class="mt-5 btn btn-outline-primary"
+            href="gallery.html"
+            target="_blank"
+            >VIEW ALL</a
+          >
+        </div>
+      </section>
+
+      <!-- testimonels section  -->
+      <section class="testimonial">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+              <p class="testimonial-head mb-1 mb-md-2">Testimonials</p>
+              <h2 class="mb-4 mb-xxl-4">
+                What our customers are saying about us?
+              </h2>
+            </div>
+            <div
+              class="col-12 col-lg-6 stat text-center mb-4 mb-lg-0"
+              id="counter"
+            >
+              <div class="test-left">
+                <div class="rating px-3">
+                  <p class="no-head count" data-number="500">500+</p>
+                  <p>Statisfied Customers</p>
+                </div>
+                <div class="rating px-3">
+                  <p class="no-head count" data-number="4">4.99</p>
+                  <p class="mb-0">Overall Rating</p>
+                  <img src="assets/images/rating-big.png" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="card-column">
+                <div class="card-slider center">
+                  <div
+                    class="client-col"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
+                    <div class="card card-testimonial">
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-4"
+                      >
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="img-test">
+                            <img src="assets/images/avatar-1.png" alt="testimonial" />
+                          </div>
+                          <div class="name-test pt-2">
+                            <h6>John Doe</h6>
+                            <p class="mb-0">Designation</p>
+                          </div>
+                        </div>
+                        <div class="star">
+                          <img src="assets/images/rating-big.png" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-text">
+                        <p>
+                          Their strategic insights and personalized approach
+                          have been invaluable to our success. I highly
+                          recommend their services to any business looking to
+                          take their tions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="client-col"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
+                    <div class="card card-testimonial">
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-4"
+                      >
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="img-test">
+                            <img src="assets/images/avatar-2.png" alt="testimonial" />
+                          </div>
+                          <div class="name-test pt-2">
+                            <h6>John Doe</h6>
+                            <p class="mb-0">Designation</p>
+                          </div>
+                        </div>
+                        <div class="star">
+                          <img src="assets/images/rating-big.png" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-text">
+                        <p>
+                          Their strategic insights and personalized approach
+                          have been invaluable to our success. I highly
+                          recommend their services to any business looking to
+                          take their tions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="client-col"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
+                    <div class="card card-testimonial">
+                      <div
+                        class="d-flex align-items-center justify-content-between mb-4"
+                      >
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="img-test">
+                            <img src="assets/images/avatar-3.png" alt="testimonial" />
+                          </div>
+                          <div class="name-test pt-2">
+                            <h6>John Doe</h6>
+                            <p class="mb-0">Designation</p>
+                          </div>
+                        </div>
+                        <div class="star">
+                          <img src="assets/images/rating-big.png" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-text">
+                        <p>
+                          Their strategic insights and personalized approach
+                          have been invaluable to our success. I highly
+                          recommend their services to any business looking to
+                          take their tions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog section  -->
+      <section class="blog" id="blog">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="text-center">
+            <p class="blog-head">Blogs</p>
+            <h2 class="mb-5">Recent Articles & News</h2>
+
+            <div class="row mb-5" data-aos="zoom-in-up">
+              <!-- article-1  -->
+              <div class="col-md-4">
+                <div class="blog-img">
+                  <p class="img-head">Interactive content</p>
+                  <a href="#">
+                    <img class="mb-4" src="assets/images/art-1.png" alt="art-img"
+                  /></a>
+                </div>
+                <div class="text-start">
+                  <div class="div">
+                    <h4 class="mb-4">
+                      Unlocking the Power of Content Marketing: Strategies for
+                      Success
+                    </h4>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <p>April 24,2024</p>
+                    <a href="blog-detail.html" target="_blank"
+                      >Read More
+                      <i
+                        class="fa-solid fa-arrow-right fa-rotate-by"
+                        style="--fa-rotate-angle: 320deg"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- article-2  -->
+              <div class="col-md-4">
+                <div class="blog-img">
+                  <p class="img-head">Digital Marketing</p>
+                  <a href="#"
+                    ><img class="mb-4" src="assets/images/art-2.png" alt="art-img"
+                  /></a>
+                </div>
+                <div class="text-start">
+                  <div class="div">
+                    <h4 class="mb-4">
+                      Unlocking the Power of Content Marketing: Strategies for
+                      Success
+                    </h4>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <p>April 24,2024</p>
+                    <a href="blog-detail.html" target="_blank"
+                      >Read More
+                      <i
+                        class="fa-solid fa-arrow-right fa-rotate-by"
+                        style="--fa-rotate-angle: 320deg"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- article-3  -->
+              <div class="col-md-4">
+                <div class="blog-img">
+                  <p class="img-head">Marketing Tools</p>
+                  <a href="#"
+                    ><img class="mb-4" src="assets/images/art-3.png" alt="art-img"
+                  /></a>
+                </div>
+                <div class="text-start">
+                  <div class="div">
+                    <h4 class="mb-4">
+                      Unlocking the Power of Content Marketing: Strategies for
+                      Success
+                    </h4>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <p>April 24,2024</p>
+                    <a href="blog-detail.html" target="_blank"
+                      >Read More
+                      <i
+                        class="fa-solid fa-arrow-right fa-rotate-by"
+                        style="--fa-rotate-angle: 320deg"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- button  -->
+            <a
+              class="btn button-primary"
+              href="blog.html"
+              target="_blank"
+              >VIEW ALL POST</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- contact section  -->
+
+    <footer class="contact" id="contact">
+      <div
+        class="container-sm container-md container-lg container-xl container-xxl"
+      >
+        <div class="row">
+          <!-- col-1 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <img class="mb-3" src="assets/images/zenith-large.png" alt="logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing mauris volutpat
+              ante ut sagittis efficitur arcu diam faucibus eli quis rhoncus
+              enim augue ut orci donec.
+            </p>
+
+            <!-- social media icons  -->
+
+            <p class="mb-1">Follow Us On:</p>
+            <div class="sub-logo">
+              <a href="https://www.facebook.com/" target="_blank">
+                <img class="img-fluid p-2" src="assets/images/facebook.png" alt="fb" />
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <img class="img-fluid p-2" src="assets/images/youtube.png" alt="yt" />
+              </a>
+              <a href="https://x.com/" target="_blank">
+                <img
+                  class="img-fluid p-2"
+                  src="assets/images/twitter.png"
+                  alt="twitter"
+                />
+              </a>
+              <a href="https://in.linkedin.com/" target="_blank">
+                <img
+                  class="img-fluid p-2"
+                  src="assets/images/linkedin.png"
+                  alt="link"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- col-2  -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Company</h5>
+            <ul class="ps-0" style="list-style: none">
+              <a href="#">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Our Team</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+              </a>
+            </ul>
+          </div>
+          <!-- col-3  -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Services</h5>
+            <ul class="ps-0" style="list-style: none">
+              <a href="#services">
+                <li>Strategic Planning Services</li>
+                <li>Market Research and Analysis</li>
+                <li>Financial Consulting</li>
+                <li>Operations Improvement</li>
+                <li>Organizational Development</li>
+                <li>Change Management</li>
+              </a>
+            </ul>
+          </div>
+          <!-- col-4 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="mb-3 mt-3">Subscribe Newslatter</h5>
+            <p class="mb-4">
+              Explore our news and blog content today and take the first step
+              towards unlocking your full business potential.
+            </p>
+
+            <form>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  placeholder="Email..."
+                  class="form-control"
+                  id="exampleInputEmail1"
+                />
+              </div>
+            </form>
+
+            <!-- button  -->
+            <button class="btn button-primary mb-4" href="#price">
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+
+        <hr class="m-0" />
+
+        <div class="d-flex copyright justify-content-between">
+          <p class="mb-0">
+            Copyright © 2024 <span style="color: #0096c7">Zenith.</span> All
+            Rights Reserved.
+          </p>
+          <p class="mb-0">Privacy & Cookie Policy</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- imported scripts -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/scripts/Query.js"></script>
+
+    <!-- aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({ duration: 1000, once: false });
+    </script>
+
+    <!-- gallery style  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("#gallery a", {
+        groupAll: true,
+      });
+    </script>
+  </body>
+</html>
